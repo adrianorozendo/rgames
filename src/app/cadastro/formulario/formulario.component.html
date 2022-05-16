@@ -1,0 +1,168 @@
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/assets/img/Logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><br>Favoritos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Notebooks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Cadeiras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Hd's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Mouses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Teclados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Monitores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Roteadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Consoles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Fones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Mesas</a>
+              </li>
+            
+                   </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+<body>
+  <main>
+<form [formGroup]="formCadastro" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label for="nome">NOME COMPLETO</label>
+      <input type="text" class="form-control" name="name" id="nome" formControlName="nome">
+    </div>
+  
+    <div class="form-group">
+      <label for="tipo">TIPO</label>
+      <select class="form-control" name="tipo" id="tipo" formControlName="tipo">
+        <option value="1">Pessoa física</option>
+        <option value="2">Pessoa jurídica</option>
+      </select>
+    </div>
+  
+    <div class="form-group">
+      <label>GÊNERO</label>
+  
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="genero" id="masculino" [value]="1" formControlName="genero">
+        <label class="form-check-label" for="masculino">Masculino</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="genero" id="feminino" [value]="2" formControlName="genero">
+        <label class="form-check-label" for="feminino">Feminino</label>
+      </div>
+    </div>
+  
+    <div class="form-group">
+      <label for="dataNascimento">DATA DE NASCIMENTO</label>
+      <input type="date" class="form-control" name="dataNascimento" id="dataNascimento" formControlName="dataNascimento">
+    </div>
+
+    <div class="form-group">
+        <label for="email">E-MAIL</label>
+        <input type="email" class="form-control" name="email" id="email" formControlName="email">
+      </div>
+
+      <div class="form-group">
+        <label for="senha">SENHA</label>
+        <input type="password" class="form-control" name="password" id="senha" formControlName="password">
+      </div>
+  
+  
+    <input type="submit" class="btn btn-primary mt-4" value="Cadastrar">
+    <a href="#" class="btn btn-secondary mt-4 ml-2">Cancelar</a>
+  
+  </form>
+
+</main>
+<footer>
+  <div class="container">
+      <div class="link-footer">
+          <div class="link">
+              <h3>Institucional</h3>
+              <dl>
+                  <dd><a href="#">Sobre a GamesR</a></dd>
+                  <dd><a href="#">Políticas de Troca</a></dd>
+                  <dd><a href="#">Políticas de Privacidade</a></dd>
+                  <dd><a href="#">Trabalhe Conosco</a></dd>
+                  <dd><a href="#">Código de Defesa do<br>Consumidor</a></dd>
+              </dl>
+          </div>
+      
+  <div class="link">
+      <h3>Minha Conta</h3>
+      <dl>
+          <dd><a href="#">Meus Pedidos</a></dd>
+          <dd><a href="#">Alterar Dados Pessoais</a></dd>
+      </dl>
+      <h3>FAQ</h3>
+      <dl>
+          <dd><a href="#">FAQ - Orientações</a></dd>
+          <dd><a href="#">Central SAC<br>(21) 6262-3737</a></dd>
+      </dl>
+  </div>
+  <div class="link">
+      <h3>Atendimento</h3>
+      <dl>
+          <dd><a href="#">Horário de Atendimento<br>Das 9h00 às 20h00<br>De Segunda à Sábado,<br>Horário de
+                  Brasília<br>(exceto Domingos e Feriados)</a></dd>
+      </dl>
+      <h3>E-mail</h3>
+      <dl>
+          <dd><a href="#">faleconosco@gamesR.com.br</a></dd>
+      </dl>
+  </div>
+  <div class="sociais">
+      <h3>Baixe Nosso App</h3>
+      <a href="#"><img src="/assets/img/Apps.png"></a>
+      <h3>Nos siga nas redes</h3>
+      <a href="#"><img src="/assets/img/twiter.png"></a>
+      <a href="#"><img src="/assets/img/instagram.png"></a>
+      <a href="#"><img src="/assets/img/youtube.png"></a>
+  <div class="sociais">
+      <a href="#"><img src="/assets/img/linkedin.png"></a>
+      <a href="#"><img src="/assets/img/facebook.png"></a>
+      <a href="#"><img src="/assets/img/tiktok.png"></a>
+  </div>
+
+  </div>
+</div>
+</div>
+</footer>
+<section class="direitos container-grid">
+  <div clas="direitos">
+      <p>GamesR® é uma marca registrada de Games_R085 Comércio Eletrônico S/A| CNPJ: 11.000.000/0001-00 | Todos
+          os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser
+          alterados sem prévio aviso. A GamesR não é responsável por erros descritivos. As fotos contidas
+          nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do
+          fabricante.</p>
+  </div>
+</section>
+</body>
+
+
