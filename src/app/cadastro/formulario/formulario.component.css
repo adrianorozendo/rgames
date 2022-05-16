@@ -1,0 +1,112 @@
+
+.container-fluid{
+    background-color: rgb(115, 66, 172);
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    text-decoration:underline;
+}
+
+body{
+    background-color: rgb(115, 66, 172);
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+form{
+    width: 600px;
+    height: 800px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: rgb(197, 83, 188);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+form input[type="submit"] {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #C31616;    
+    color: white;
+}
+
+.form-group{
+    width: 70%;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+}
+
+.form-check{
+    width: 80%;
+    height: 80%;
+}
+
+input{
+    text-indent: 5px;
+}
+
+input, button{
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+}
+
+a{
+    width: 100%;
+    text-align: center;
+}
+footer{
+    display: flex;
+    margin-top: 200px;
+}
+.rodape{
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: black;
+}
+.link h3{
+    font-size: 24px;
+}
+.link a{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+.link-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-left: 100px;
+}
+.sociais h3{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.direitos{
+    margin-top: 10px;
+    bottom: auto;
+}
+.direitos p{
+    color: black;
+    display: flex;
+    margin-top: 0;
+    margin-inline-end: 0;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    justify-content: space-around;
+}
+.barras{
+    width: 50px;
+    display: none;
+}

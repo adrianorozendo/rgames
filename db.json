@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "email": "adrianorozendo@gmail.com",
+      "password": "$2a$10$gZOkscEwTffJobOmD9m1ae.e3/iK0XBL3mQyRKPbRHGpAt3kyrYgu",
+      "nome": "Adriano",
+      "id": 1
+    },
+    {
+      "email": "adrianoasf.socio@gmail.com",
+      "password": "$2a$10$kEJhF05ShSNZ5KXPnK7KOO1aa8PXM4ObhkHLEhUvm01qkvoj2/uga",
+      "nome": "AdrianoAsF",
+      "id": 2
+    },
+    {
+      "email": "adrianorozendo@gmail.com",
+      "password": "$2a$10$yGt1PdE1QcqBki1LcY78pOiOBWEl3Ndv2TbJsm7DBCh/GU3dfnq8a",
+      "nome": "Adriano",
+      "id": 3
+    }
+  ],
+  "dicas": [
+    {
+      "id": 1,
+      "imagem": "assets/img/Semana.jpg",
+      "titulo": "Semana GameR",
+      "descricao": "Na semana gamer, temos os melhores descontos!"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/Especialistas.jpg",
+      "titulo": "GameREspecialistas",
+      "descricao": "Conheça todos os detalhes dos nossos produtos!"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/Cartao.jpg",
+      "titulo": "Cartão GamesR",
+      "descricao": "Conheça todas as vantagens e como ter o seu!"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/Dicas.jpg",
+      "titulo": "Dicas da semana",
+      "descricao": "Conheça nossas dicas, sobre todo universo Gamer!"
+    }
+  ]
+}
