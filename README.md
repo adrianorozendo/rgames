@@ -1,6 +1,5 @@
 # GamesR
 
-Jogos
 GamesR é uma loja de jogos para apresentação de trabalho SenaiSP
 
 Este projeto foi gerado com Angular CLI versão 16.13.0
